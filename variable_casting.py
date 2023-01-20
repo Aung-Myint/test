@@ -1,0 +1,12 @@
+#x=0.1
+y=3
+x='11'
+print(type(y),'\n',type(x))
+i=int(x)
+print(type(i),i)
+i=str(3)
+print(type(i),i)
+i=float(y)
+print(type(i),i)
+y=int(i)
+print(type(y),y)
