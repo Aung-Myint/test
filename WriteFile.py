@@ -1,0 +1,8 @@
+append_file=open('demo.txt','a')
+append_file.write('append word')
+append_file.write('\n This is another line')
+ov_file=open('demo.txt','w')
+ov_file.write('This is a new text')
+#dm_2=open('demo2.txt','x')
+dm_2=open('demo2.txt','a')
+dm_2=open('demo2.txt','w')
